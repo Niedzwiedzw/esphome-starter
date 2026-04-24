@@ -1,12 +1,11 @@
 light:
   - platform: binary
-    id: light0
-    name: "Light 0"
+    id: water0
+    name: "Water 0"
     output: out_port0_pin0
     restore_mode: RESTORE_DEFAULT_OFF
   - platform: binary
-    id: light1
-    name: "Light 1"
+    id: water1
+    name: "Water 1"
     output: out_port0_pin1
     restore_mode: RESTORE_DEFAULT_OFF
-

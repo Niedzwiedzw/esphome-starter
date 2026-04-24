@@ -5,16 +5,14 @@ packages:
   - !include common.yaml
   - !include compactio_v1.3.yaml
   # In EspHome you cannot enable WiFi and Ethernet at the same time.
-  - !include ethernet.yaml
-  #- !include wifi.yaml
-  - !include inputs.yaml
-  - !include covers.yaml
-  - !include lights.yaml
-  - !include switches.yaml
+  # - !include ethernet.yaml
+  - !include wifi.yaml
+  # - !include inputs.yaml
+  # - !include covers.yaml
+  - !include watering.yaml
+  # - !include switches.yaml
 
 sun:
   # Set to Warsaw, change if needed
   latitude: 52.237049°
   longitude: 21.017532°
-
-

@@ -1,7 +1,7 @@
 wifi:
   networks:
-    - ssid: "<ssid>"
-      password: "<password>"
+    - ssid: "CBA - wóz obserwacyjny nr 2137"
+      password: "U4AR%io4Nv6uLx5Gxm1Gch@0j5tjtbdtGA5"
 
 text_sensor:
   - platform: wifi_info
