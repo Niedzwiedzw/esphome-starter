@@ -7,10 +7,10 @@ packages:
   # In EspHome you cannot enable WiFi and Ethernet at the same time.
   # - !include ethernet.yaml
   - !include wifi.yaml
-  # - !include inputs.yaml
-  # - !include covers.yaml
+  - !include inputs.yaml
+  - !include covers.yaml
   - !include watering.yaml
-  # - !include switches.yaml
+  - !include switches.yaml
 
 sun:
   # Set to Warsaw, change if needed

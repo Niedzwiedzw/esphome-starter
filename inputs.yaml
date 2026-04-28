@@ -1,50 +1,50 @@
 binary_sensor:
-  - platform: gpio
-    name: "Input0-1"
-    pin:
-      sn74hc165: inputs
-      number: 20
-      inverted: true
-      mode:
-        input: true
-    on_press:
-      then:
-        - light.toggle: light0
-  - platform: gpio
-    name: "Input0-2"
-    pin:
-      sn74hc165: inputs
-      number: 21
-      inverted: true
-      mode:
-        input: true
-    on_press:
-      then:
-        - light.toggle: light1
-  - platform: gpio
-    name: "Input0-3"
-    pin:
-      sn74hc165: inputs
-      number: 22
-      inverted: true
-      mode:
-        input: true
-    on_press:
-      then:
-        - lambda: |-
-            cover_open_or_stop(cover0);
-  - platform: gpio
-    name: "Input0-4"
-    pin:
-      sn74hc165: inputs
-      number: 23
-      inverted: true
-      mode:
-        input: true
-    on_press:
-      then:
-        - lambda: |-
-            cover_close_or_stop(cover0);
+  # - platform: gpio
+  #   name: "Input0-1"
+  #   pin:
+  #     sn74hc165: inputs
+  #     number: 20
+  #     inverted: true
+  #     mode:
+  #       input: true
+  #   on_press:
+  #     then:
+  #       - light.toggle: light0
+  # - platform: gpio
+  #   name: "Input0-2"
+  #   pin:
+  #     sn74hc165: inputs
+  #     number: 21
+  #     inverted: true
+  #     mode:
+  #       input: true
+  #   on_press:
+  #     then:
+  #       - light.toggle: light1
+  # - platform: gpio
+  #   name: "Input0-3"
+  #   pin:
+  #     sn74hc165: inputs
+  #     number: 22
+  #     inverted: true
+  #     mode:
+  #       input: true
+  #   on_press:
+  #     then:
+  #       - lambda: |-
+  #           cover_open_or_stop(cover0);
+  # - platform: gpio
+  #   name: "Input0-4"
+  #   pin:
+  #     sn74hc165: inputs
+  #     number: 23
+  #     inverted: true
+  #     mode:
+  #       input: true
+  #   on_press:
+  #     then:
+  #       - lambda: |-
+  #           cover_close_or_stop(cover0);
 #  - platform: gpio
 #    name: "Input0-5"
 #    pin:

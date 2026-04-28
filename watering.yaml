@@ -9,3 +9,18 @@ light:
     name: "Water 1"
     output: out_port0_pin1
     restore_mode: RESTORE_DEFAULT_OFF
+  - platform: binary
+    id: water2
+    name: "Water 2"
+    output: out_port0_pin2
+    restore_mode: RESTORE_DEFAULT_OFF
+  - platform: binary
+    id: water3
+    name: "Water 3"
+    output: out_port0_pin3
+    restore_mode: RESTORE_DEFAULT_OFF
+  - platform: binary
+    id: water4
+    name: "Water 4"
+    output: out_port0_pin4
+    restore_mode: RESTORE_DEFAULT_OFF
